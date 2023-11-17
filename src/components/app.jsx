@@ -1112,7 +1112,7 @@ export default class App extends Component {
 			return;
 		}
 		var json = {
-			title: 'A Web Maker experiment',
+			title: 'A 42Pen experiment',
 			html: this.state.currentItem.html,
 			css: this.state.currentItem.css,
 			js: this.state.currentItem.js,

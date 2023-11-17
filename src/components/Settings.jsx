@@ -86,8 +86,8 @@ export default class Settings extends Component {
 								showWhenExtension
 							/>
 							<HelpText>
-								Turning this on will start showing Web Maker in every new tab
-								you open
+								Turning this on will start showing 42Pen in every new tab you
+								open
 							</HelpText>
 						</div>
 						<Divider />

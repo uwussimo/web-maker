@@ -7,7 +7,7 @@ export function HelpModal(props) {
 	return (
 		<Modal show={props.show} closeHandler={props.closeHandler}>
 			<h1>
-				<div class="web-maker-with-tag">Web Maker</div>
+				<div class="web-maker-with-tag">42Pen</div>
 				<small style="font-size:14px;">{props.version}</small>
 			</h1>
 
@@ -77,7 +77,7 @@ export function HelpModal(props) {
 						<svg>
 							<use xlinkHref="#heart-icon" />
 						</svg>
-						<Trans>Review Web Maker</Trans>
+						<Trans>Review 42Pen</Trans>
 					</a>{' '}
 					<a
 						href="https://spectrum.chat/web-maker"
@@ -182,7 +182,7 @@ export function HelpModal(props) {
 							</li>
 							<li>
 								<a target="_blank" rel="noopener noreferrer" href="/">
-									Web Maker!
+									42Pen!
 								</a>{' '}
 								- whhat!
 							</li>
@@ -195,7 +195,7 @@ export function HelpModal(props) {
 						<Trans>License</Trans>
 					</h3>
 					<Trans>
-						"Web Maker" is{' '}
+						"42Pen" is{' '}
 						<a
 							target="_blank"
 							rel="noopener noreferrer"

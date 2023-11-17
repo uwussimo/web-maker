@@ -62,7 +62,7 @@
 		'Realign code': 'Reajustar el c\xF3digo',
 		'Refresh preview': 'Actualizar la vista previa',
 		'Report a bug': 'Reporta un error',
-		'Review Web Maker': 'Rese\xF1a de Web Maker',
+		'Review 42Pen': 'Rese\xF1a de 42Pen',
 		Run: 'Ejecutar',
 		'Run Prettier': 'Ejecutar Prettier',
 		'Run preview (Ctrl/\u2318 + Shift + 5)':
@@ -98,7 +98,7 @@
 		'Take screenshot of preview':
 			'Tomar captura de pantalla de la vista previa',
 		'Toggle console': 'Alternar consola',
-		"Tweet about 'Web Maker'": "Tuitea sobre 'Web Maker'",
+		"Tweet about '42Pen'": "Tuitea sobre '42Pen'",
 		'Type here to search libraries':
 			'Escriba aqu\xED para buscar en las librer\xEDas',
 		'Upload Image': 'Cargar imagen'

@@ -2,7 +2,7 @@
 title: 'Settings'
 ---
 
-Web Maker comes with a whole bunch of different settings to customize the development environment according to your needs. You can access the settings by clicking the **gear** icon in the bottom right of the screen.
+42Pen comes with a whole bunch of different settings to customize the development environment according to your needs. You can access the settings by clicking the **gear** icon in the bottom right of the screen.
 
 At rare times, you might find yourself in a situation where you are not able to access the settings view from the user interface, may be due to some bug. And you find that toggling a specific setting can stop that bug from happening. For such scenarios there is a provision to override specific settings from the URL itself by appending query parameters.
 

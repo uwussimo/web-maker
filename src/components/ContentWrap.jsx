@@ -534,7 +534,7 @@ export default class ContentWrap extends Component {
 
 		this.detachedWindow = window.open(
 			'./preview.html',
-			'Web Maker',
+			'42Pen',
 			`width=${iframeWidth},height=${iframeHeight},resizable,scrollbars=yes,status=1`
 		);
 		// Trigger initial render in detached window
@@ -940,8 +940,8 @@ export default class ContentWrap extends Component {
 
 						<p>
 							If you want to work with just HTML & CSS, you can still continue
-							here. Otherwise, it is recommended to switch to the Web Maker web
-							app which is much more powerful and works offline too -{' '}
+							here. Otherwise, it is recommended to switch to the 42Pen web app
+							which is much more powerful and works offline too -{' '}
 							<a href="https://webmaker.app/app" target="_blank">
 								Go to web app
 							</a>

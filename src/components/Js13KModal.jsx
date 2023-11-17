@@ -8,11 +8,11 @@ export function Js13KModal({ show, closeHandler }) {
 				<div className="flex flex-v-center flex-h-center ">
 					<img
 						src="/icon-128.png"
-						alt="Web Maker logo"
+						alt="42Pen logo"
 						height="100"
 						style="margin:0 0.5rem;"
 					/>
-					<h2>Web Maker</h2>
+					<h2>42Pen</h2>
 					<span style="font-size:3rem;margin:0 1rem;">+</span>
 					<h2>JS13K Games</h2>
 					<img
@@ -33,17 +33,17 @@ export function Js13KModal({ show, closeHandler }) {
 				</p>
 
 				<p>
-					You have activated Web Maker's Js13kGames mode! This gives you some
-					extra support to build your awesome game right here. Constantly see
-					your game's zipped size in the footer. When you are done, download the
-					zip.{' '}
+					You have activated 42Pen's Js13kGames mode! This gives you some extra
+					support to build your awesome game right here. Constantly see your
+					game's zipped size in the footer. When you are done, download the zip.{' '}
 					<a
 						href="https://medium.com/web-maker/js13kgames-jam-with-web-maker-a3389cf2cbb"
 						target="_blank"
 						rel="noopener"
 					>
 						Read more about this collaboration
-					</a>.
+					</a>
+					.
 				</p>
 
 				<ul>

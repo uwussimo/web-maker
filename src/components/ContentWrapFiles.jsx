@@ -54,12 +54,10 @@ export default class ContentWrapFiles extends Component {
 		// `clearConsole` is on window because it gets called from inside iframe also.
 		window.clearConsole = this.clearConsole.bind(this);
 
-		this.consoleHeaderDblClickHandler = this.consoleHeaderDblClickHandler.bind(
-			this
-		);
-		this.clearConsoleBtnClickHandler = this.clearConsoleBtnClickHandler.bind(
-			this
-		);
+		this.consoleHeaderDblClickHandler =
+			this.consoleHeaderDblClickHandler.bind(this);
+		this.clearConsoleBtnClickHandler =
+			this.clearConsoleBtnClickHandler.bind(this);
 		this.toggleConsole = this.toggleConsole.bind(this);
 		this.evalConsoleExpr = this.evalConsoleExpr.bind(this);
 	}
@@ -360,12 +358,13 @@ export default class ContentWrapFiles extends Component {
 			window.editorThemeLinkTag.href = `lib/codemirror/theme/${prefs.editorTheme}.css`;
 		}
 
-		window.fontStyleTag.textContent = window.fontStyleTemplate.textContent.replace(
-			/fontname/g,
-			(prefs.editorFont === 'other'
-				? prefs.editorCustomFont
-				: prefs.editorFont) || 'FiraCode'
-		);
+		window.fontStyleTag.textContent =
+			window.fontStyleTemplate.textContent.replace(
+				/fontname/g,
+				(prefs.editorFont === 'other'
+					? prefs.editorCustomFont
+					: prefs.editorFont) || 'FiraCode'
+			);
 	}
 
 	// Check all the code wrap if they are minimized or maximized
@@ -376,7 +375,7 @@ export default class ContentWrapFiles extends Component {
 			const { currentLayoutMode } = this.props;
 			const prop =
 				currentLayoutMode === 2 || currentLayoutMode === 5 ? 'width' : 'height';
-			[htmlCodeEl].forEach(function(el) {
+			[htmlCodeEl].forEach(function (el) {
 				const bounds = el.getBoundingClientRect();
 				const size = bounds[prop];
 				if (size < 100) {
@@ -494,7 +493,7 @@ export default class ContentWrapFiles extends Component {
 
 		this.detachedWindow = window.open(
 			'./preview.html',
-			'Web Maker',
+			'42Pen',
 			`width=${iframeWidth},height=${iframeHeight},resizable,scrollbars=yes,status=1`
 		);
 		// Trigger initial render in detached window

@@ -8,7 +8,7 @@ export function OnboardingModal(props) {
 				<svg width="130px" height="50px" aria-hidden="true">
 					<use xlinkHref="#logo" />
 				</svg>
-				<h1 style="margin-top:20px">Welcome to Web Maker</h1>
+				<h1 style="margin-top:20px">Welcome to 42Pen</h1>
 			</div>
 
 			<div class="flex--desk" style="margin-top:40px;">
@@ -19,15 +19,15 @@ export function OnboardingModal(props) {
 						</svg>
 					</div>
 					<p>
-						Open Web Maker anytime by visiting <a>https://webmaker.app/app/</a>{' '}
-						- Even when you are offline! It just works! 😱{' '}
+						Open 42Pen anytime by visiting <a>https://webmaker.app/app/</a> -
+						Even when you are offline! It just works! 😱{' '}
 						<strong>Drag the following bookmarklet</strong> on your bookmark bar
 						to create a quick access shortcut:
 						<a class="ml-1 bookmarklet" href="https://webmaker.app/app/">
 							<svg width="20" height="20" aria-hidden="true">
 								<use xlinkHref="#logo" />
 							</svg>
-							Web Maker
+							42Pen
 						</a>
 					</p>
 				</div>
@@ -38,7 +38,7 @@ export function OnboardingModal(props) {
 						</svg>
 					</div>
 					<p>
-						Open Web Maker anytime by clicking the
+						Open 42Pen anytime by clicking the
 						<svg class="relative" style="top:5px;" width="40" height="30">
 							<use xlinkHref="#logo" />
 						</svg>{' '}

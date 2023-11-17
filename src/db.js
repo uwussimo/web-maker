@@ -59,7 +59,7 @@ import { log } from './utils';
 
 			return firestoreInstance
 				.enablePersistence({ experimentalTabSynchronization: true })
-				.then(function() {
+				.then(function () {
 					// Initialize Cloud Firestore through firebase
 					db = firebase.firestore();
 					// const settings = {
@@ -69,13 +69,13 @@ import { log } from './utils';
 					log('firebase db ready', db);
 					resolve(db);
 				})
-				.catch(function(err) {
+				.catch(function (err) {
 					reject(err.code);
 					if (err.code === 'failed-precondition') {
 						// Multiple tabs open, persistence can only be enabled
 						// in one tab at a a time.
 						alert(
-							"Opening Web Maker web app in multiple tabs isn't supported at present and it seems like you already have it opened in another tab. Please use in one tab."
+							"Opening 42Pen web app in multiple tabs isn't supported at present and it seems like you already have it opened in another tab. Please use in one tab."
 						);
 						trackEvent('fn', 'multiTabError');
 					} else if (err.code === 'unimplemented') {
@@ -113,7 +113,7 @@ import { log } from './utils';
 			{
 				lastSeenVersion: version
 			},
-			function() {}
+			function () {}
 		);
 		if (window.user) {
 			const remoteDb = await getDb();

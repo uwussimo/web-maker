@@ -203,8 +203,8 @@ msgid "Report a bug"
 msgstr "Reporta un error"
 
 #: src/components/HelpModal.jsx:80
-msgid "Review Web Maker"
-msgstr "Reseña de Web Maker"
+msgid "Review 42Pen"
+msgstr "Reseña de 42Pen"
 
 #: src/components/MainHeader.jsx:32
 msgid "Run"
@@ -307,8 +307,8 @@ msgid "Toggle console"
 msgstr "Alternar consola"
 
 #: src/components/Footer.jsx:118
-msgid "Tweet about 'Web Maker'"
-msgstr "Tuitea sobre 'Web Maker'"
+msgid "Tweet about '42Pen'"
+msgstr "Tuitea sobre '42Pen'"
 
 #: src/components/AddLibrary.jsx:82
 msgid "Type here to search libraries"

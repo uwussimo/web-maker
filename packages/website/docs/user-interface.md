@@ -2,7 +2,7 @@
 title: 'User interface'
 ---
 
-Web Maker's user interface is made to feel simple and accessible so that you have all the required things at your tips and still doesn't look cluttered for someone using it for first time.
+42Pen's user interface is made to feel simple and accessible so that you have all the required things at your tips and still doesn't look cluttered for someone using it for first time.
 
 ## Code Panes
 
@@ -36,7 +36,7 @@ Next you have some layout options to choose from. Select whats suits you best. T
 
 ## Download/Share creation
 
-Web Maker gives you quite some options to export your current creation to share with the world. You can save it as a single HTML file to upload it on a server, or open it in CodePen or take a screenshot of your preview.
+42Pen gives you quite some options to export your current creation to share with the world. You can save it as a single HTML file to upload it on a server, or open it in CodePen or take a screenshot of your preview.
 
 ## Export/Import creations
 
@@ -44,4 +44,4 @@ Web Maker gives you quite some options to export your current creation to share 
 
 ## Help and Share
 
-On the bottom-left side are few help options, one of which shows you all th keyboard shortcuts available inside the app. Also there is a tweet button you can use to share Web Maker with everyone :)
+On the bottom-left side are few help options, one of which shows you all th keyboard shortcuts available inside the app. Also there is a tweet button you can use to share 42Pen with everyone :)

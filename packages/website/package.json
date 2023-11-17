@@ -1,7 +1,7 @@
 {
 	"name": "web-maker-docs",
 	"version": "1.0.0",
-	"description": "## What is Web Maker",
+	"description": "## What is 42Pen",
 	"main": "index.html",
 	"scripts": {
 		"start": "eleventy --quiet --serve",

@@ -15,7 +15,7 @@ export function SupportDeveloperModal({ show, closeHandler }) {
 					>
 						Kushagra
 					</a>{' '}
-					here! Web Maker is a free and open-source project. To keep myself
+					here! 42Pen is a free and open-source project. To keep myself
 					motivated for working on such open-source and free{' '}
 					<a
 						href="https://kushagragour.in/lab/"
@@ -23,10 +23,11 @@ export function SupportDeveloperModal({ show, closeHandler }) {
 						rel="noopener noreferrer"
 					>
 						side projects
-					</a>, I am accepting donations. Your pledge, no matter how small, will
-					act as an appreciation towards my work and keep me going forward
-					making Web Maker more awesome🔥. So please consider donating. 🙏🏼
-					(could be as small as $1/month).
+					</a>
+					, I am accepting donations. Your pledge, no matter how small, will act
+					as an appreciation towards my work and keep me going forward making
+					42Pen more awesome🔥. So please consider donating. 🙏🏼 (could be as
+					small as $1/month).
 				</p>
 
 				<div

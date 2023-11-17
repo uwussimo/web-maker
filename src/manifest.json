@@ -1,5 +1,5 @@
 {
-	"name": "Web Maker",
+	"name": "42Pen",
 	"version": "5.1.1",
 	"manifest_version": 2,
 	"description": "Blazing fast & offline playground for your web experiments",
@@ -12,7 +12,7 @@
 		"chrome_style": true
 	},
 	"browser_action": {
-		"default_title": "Start Web Maker",
+		"default_title": "Start 42Pen",
 		"default_icon": "icon-16.png"
 	},
 	"background": {

@@ -34,9 +34,9 @@ function Notification({ version, isLatest, ...props }) {
 			{isLatest ? (
 				<div class="mt-2">
 					<p>
-						<strong>🎉 New Product!</strong> If you like Web Maker, you'll
-						probably also like a new product I launched. It's the first ever
-						code-golfing game for CSS -&gt;{' '}
+						<strong>🎉 New Product!</strong> If you like 42Pen, you'll probably
+						also like a new product I launched. It's the first ever code-golfing
+						game for CSS -&gt;{' '}
 						<a href="https://cssbattle.dev" target="_blank">
 							CSSBattle
 						</a>
@@ -44,7 +44,7 @@ function Notification({ version, isLatest, ...props }) {
 					</p>
 					{/*<p>
 						<strong>🚀 Announcement</strong>: Hi! I am Kushagra Gour (creator of
-						Web Maker) and I have launched a
+						42Pen) and I have launched a
 						<a
 							href="https://patreon.com/kushagra"
 							target="_blank"
@@ -53,7 +53,7 @@ function Notification({ version, isLatest, ...props }) {
 							{' '}
 							Patreon campaign
 						</a>
-						. If you love Web Maker, consider pledging to
+						. If you love 42Pen, consider pledging to
 						<a
 							href="https://patreon.com/kushagra"
 							target="_blank"
@@ -74,20 +74,20 @@ function Notification({ version, isLatest, ...props }) {
 						</a>
 					</p>
 					<p>
-						Web Maker now has more than 50K weekly active users! Thank you for
-						being a part of this community of awesome developers. If you find
-						Web Maker helpful,{' '}
+						42Pen now has more than 50K weekly active users! Thank you for being
+						a part of this community of awesome developers. If you find 42Pen
+						helpful,{' '}
 						<a
 							href="https://chrome.google.com/webstore/detail/web-maker/lkfkkhfhhdkiemehlpkgjeojomhpccnh/reviews"
 							target="_blank"
 							rel="noopener noreferrer"
 							class="btn"
 						>
-							Please rate Web Maker <span class="star" />
+							Please rate 42Pen <span class="star" />
 						</a>
 						&nbsp;
 						<a
-							href="http://twitter.com/share?url=https://webmaker.app/&text=Web Maker - A blazing fast %26 offline web playground! via @webmakerApp&related=webmakerApp&hashtags=web,editor,chrome,extension"
+							href="http://twitter.com/share?url=https://webmaker.app/&text=42Pen - A blazing fast %26 offline web playground! via @webmakerApp&related=webmakerApp&hashtags=web,editor,chrome,extension"
 							target="_blank"
 							rel="noopener noreferrer"
 							class="btn"
@@ -151,8 +151,8 @@ export function Notifications(props) {
 				<li>
 					<strong>We are Back! 😎</strong>: After almost 2 years of nothing
 					being shipped, we are back in action. That too with a bang! We have a
-					small team of amazing developers working on Web Maker now. So expect
-					some crazy useful features coming soon!
+					small team of amazing developers working on 42Pen now. So expect some
+					crazy useful features coming soon!
 				</li>
 				<NotificationItem type="ui">
 					First up, is local language support! We have added Hindi and Spanish
@@ -224,17 +224,17 @@ export function Notifications(props) {
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						blog post about Web Maker 4.0
+						blog post about 42Pen 4.0
 					</a>
 					.
 				</p>
 				<ul>
 					<li>
-						<strong>🏠</strong>: First of all, Web Maker has a new home -{' '}
+						<strong>🏠</strong>: First of all, 42Pen has a new home -{' '}
 						<a href="https://webmaker.app">https://webmaker.app</a> 😀 The old
 						website will continue to run for a month or so, but will eventually
 						start redirecting to the new website. If you have an online account
-						in Web Maker, you need not worry. But if you have some locally saved
+						in 42Pen, you need not worry. But if you have some locally saved
 						creations, you should{' '}
 						<a
 							href="https://medium.com/web-maker/importing-exporting-your-creations-d92e7de5c3dc"
@@ -317,18 +317,18 @@ export function Notifications(props) {
 				</li>
 
 				<li>
-					No more anonying alert on opening Web Maker in multiple tabs. Thanks
-					team Firebase :) (#340)
+					No more anonying alert on opening 42Pen in multiple tabs. Thanks team
+					Firebase :) (#340)
 				</li>
 
 				<li>
-					<strong>🔥 Web Maker 4.0 is coming!</strong> Follow{' '}
+					<strong>🔥 42Pen 4.0 is coming!</strong> Follow{' '}
 					<a
 						href="https://twitter.com/webmakerApp"
 						target="_blank"
 						rel="noopener"
 					>
-						Web Maker on Twitter
+						42Pen on Twitter
 					</a>{' '}
 					to keep up with all the exciting updates.
 				</li>
@@ -459,7 +459,7 @@ export function Notifications(props) {
 
 			<Notification version="3.3.0" {...props}>
 				<li>
-					<strong>🔥 [Dev] Code Refactor</strong>: I rewrote Web Maker. Yes, Web
+					<strong>🔥 [Dev] Code Refactor</strong>: I rewrote 42Pen. Yes, Web
 					Maker's codebase has been ported from plain JS to{' '}
 					<a
 						href="https://preactjs.com/"
@@ -525,9 +525,9 @@ export function Notifications(props) {
 
 			<Notification version="3.1.0" {...props}>
 				<li>
-					<strong>Mobile Support (app only).</strong>: Make the Web Maker app
-					usable on mobile. This is only for web app as Chrome extensions don't
-					run on mobile.
+					<strong>Mobile Support (app only).</strong>: Make the 42Pen app usable
+					on mobile. This is only for web app as Chrome extensions don't run on
+					mobile.
 				</li>
 			</Notification>
 
@@ -559,7 +559,7 @@ export function Notifications(props) {
 				<span class="notification__version">3.0.1</span>
 				<ul>
 					<li>
-						After months of work, here is Web Maker 3.0.
+						After months of work, here is 42Pen 3.0.
 						<a
 							href="https://medium.com/web-maker/web-maker-3-0-is-here-f158a40eeaee"
 							target="_blank"
@@ -571,9 +571,9 @@ export function Notifications(props) {
 						.
 					</li>
 					<li>
-						Web Maker is no more just a Chrome extension, it is also available
-						as web app that runs offline just like the extension! Checkout it
-						out -&gt;
+						42Pen is no more just a Chrome extension, it is also available as
+						web app that runs offline just like the extension! Checkout it out
+						-&gt;
 						<a
 							href="https://webmaker.app/app/"
 							target="_blank"
@@ -584,8 +584,8 @@ export function Notifications(props) {
 						.
 					</li>
 					<li>
-						Now use Web Maker web app on any modern browser (tested with Chrome
-						and Firefox).
+						Now use 42Pen web app on any modern browser (tested with Chrome and
+						Firefox).
 					</li>
 					<li>
 						<strong>User Accounts</strong> - The much requested user accounts
@@ -726,8 +726,8 @@ export function Notifications(props) {
 					</li>
 					<li>
 						<strong>Bugfix</strong> - Logging circular objects is now possible.
-						It won't show in the Web Maker console, but will show fine in
-						browser's console.
+						It won't show in the 42Pen console, but will show fine in browser's
+						console.
 					</li>
 					<li>
 						<strong>Bugfix</strong> - Console's z-index issue has been fixed.
@@ -873,8 +873,8 @@ export function Notifications(props) {
 						.
 					</li>
 					<li>
-						<strong>Light mode</strong> - This new setting makes Web Maker drop
-						some heavy effects like blur etc to gain more performance. Thanks
+						<strong>Light mode</strong> - This new setting makes 42Pen drop some
+						heavy effects like blur etc to gain more performance. Thanks
 						<a
 							href="https://github.com/iamandrewluca"
 							target="_blank"
@@ -1046,13 +1046,12 @@ export function Notifications(props) {
 						external libraries list.
 					</li>
 					<li>
-						Several other minor bugfixes and improvements to make Web Maker
-						awesome!
+						Several other minor bugfixes and improvements to make 42Pen awesome!
 					</li>
 
 					<li>
-						Great news to share with you - Web Maker has been featured on the
-						Chrome Webstore homepage! Thanks for all the love :)
+						Great news to share with you - 42Pen has been featured on the Chrome
+						Webstore homepage! Thanks for all the love :)
 					</li>
 				</ul>
 			</div>
@@ -1183,7 +1182,7 @@ export function Notifications(props) {
 					</li>
 					<li>
 						<strong>Important</strong>: Due to security policy changes from
-						Chrome 57 onwards, Web Maker now allows loading external JavaScript
+						Chrome 57 onwards, 42Pen now allows loading external JavaScript
 						libraries only from certain whitelisted domains (localhost,
 						https://ajax.googleapis.com, https://code.jquery.com,
 						https://cdnjs.cloudflare.com, https://unpkg.com, https://maxcdn.com,

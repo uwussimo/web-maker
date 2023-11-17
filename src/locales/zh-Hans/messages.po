@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #: src/components/HelpModal.jsx:201
-#~ msgid "\"Web Maker\" <0>CHill</0>."
+#~ msgid "\"42Pen\" <0>CHill</0>."
 #~ msgstr ""
 
 #: src/components/SavedItemPane.jsx:116
@@ -229,7 +229,7 @@ msgid "Report a bug"
 msgstr ""
 
 #: src/components/HelpModal.jsx:80
-msgid "Review Web Maker"
+msgid "Review 42Pen"
 msgstr ""
 
 #: src/components/MainHeader.jsx:32
@@ -346,7 +346,7 @@ msgid "Toggle console"
 msgstr ""
 
 #: src/components/Footer.jsx:118
-msgid "Tweet about 'Web Maker'"
+msgid "Tweet about '42Pen'"
 msgstr ""
 
 #: src/components/HelpModal.jsx:34

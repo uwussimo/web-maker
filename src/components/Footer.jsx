@@ -82,7 +82,7 @@ export default class Footer extends Component {
 								<div class="logo" />
 							</a>
 							&copy;
-							<span class="web-maker-with-tag">Web Maker</span> &nbsp;&nbsp;
+							<span class="web-maker-with-tag">42Pen</span> &nbsp;&nbsp;
 							<Button
 								onClick={this.props.helpBtnClickHandler}
 								data-event-category="ui"
@@ -116,8 +116,8 @@ export default class Footer extends Component {
 							</Button>
 							<a
 								class="footer__link  hint--rounded  hint--top-right"
-								aria-label={i18n._(t`Tweet about 'Web Maker'`)}
-								href="http://twitter.com/share?url=https://webmaker.app/&text=Web Maker - A blazing fast %26 offline web playground! via @webmakerApp&related=webmakerApp&hashtags=web,frontend,playground,offline"
+								aria-label={i18n._(t`Tweet about '42Pen'`)}
+								href="http://twitter.com/share?url=https://webmaker.app/&text=42Pen - A blazing fast %26 offline web playground! via @webmakerApp&related=webmakerApp&hashtags=web,frontend,playground,offline"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
