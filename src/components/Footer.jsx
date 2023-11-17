@@ -77,7 +77,8 @@ export default class Footer extends Component {
 				{({ i18n }) => (
 					<div id="footer" class="footer">
 						<div>
-							<a href="/" target="_blank" rel="noopener noreferrer">
+							&copy; QIRIKKI LLC 2023
+							{/* <a href="/" target="_blank" rel="noopener noreferrer">
 								<div class="logo" />
 							</a>
 							&copy;
@@ -140,7 +141,7 @@ export default class Footer extends Component {
 								)}
 							>
 								<Trans>Donate</Trans>
-							</Button>
+							</Button> */}
 						</div>
 
 						{this.props.prefs.isJs13kModeOn ? (

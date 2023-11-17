@@ -103,7 +103,7 @@ export function MainHeader(props) {
 							</svg>
 							<Trans>Open</Trans>
 						</button>
-						{!props.user ? (
+						{/* {!props.user ? (
 							<Button
 								onClick={props.loginBtnHandler}
 								data-event-category="ui"
@@ -130,7 +130,7 @@ export function MainHeader(props) {
 									class="main-header__avatar-img"
 								/>
 							</Button>
-						)}
+						)} */}
 					</div>
 				</div>
 			)}
